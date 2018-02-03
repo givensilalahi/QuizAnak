@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gjsilalahi.quizanakanak.LearnActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Pahlawan Indonesia"
+                android:textSize="@dimen/font_menu"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/sukarno" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="{soekarno}"
+                android:textSize="@dimen/font_jwbn" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/kartini" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="{kartini}"
+                android:textSize="@dimen/font_jwbn" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/diponegoro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="{diponogoro}"
+                android:textSize="@dimen/font_jwbn" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
